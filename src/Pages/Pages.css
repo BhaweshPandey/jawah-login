@@ -57,6 +57,11 @@ button{
     border-radius: 20px;
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: green;
 }
 
 a{
@@ -66,5 +71,5 @@ a{
 }
 
 a:hover{
-    color: #000;
+    color: blue;
 }
