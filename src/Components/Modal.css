@@ -1,0 +1,52 @@
+.Modal{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Modal-contant{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Modal-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Modal-header, .Modal-footer{
+    padding: 5px;
+}
+
+.forgot-close{
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.Modal-title{
+    margin: 0;
+}
+
+.Modal-body{
+    padding: 10px;
+    font-size: 21px;
+}
+
+.forgot-input{
+    width: 430px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.forgot-button{
+    width: 460px;
+    margin-top: 10px;
+}
