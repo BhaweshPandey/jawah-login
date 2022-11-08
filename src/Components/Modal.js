@@ -1,6 +1,7 @@
-import React , {useState} from 'react'
+import React  from 'react'
 import './Modal.css'
 import close from '../image/Path.png'
+import SubModal from '../Components/SubModal'
 
 const Modal = ({show , onClose}) => {
   if(!show){

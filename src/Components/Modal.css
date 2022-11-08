@@ -10,6 +10,7 @@
     justify-content: center;
 }
 
+
 .Modal-contant{
     width: 500px;
     background-color: #fff;
@@ -17,9 +18,15 @@
     padding: 20px;
 }
 
+
 .Modal-header{
     display: flex;
     justify-content: space-between;
+}
+
+.SubModal-header{
+    display: flex;
+    justify-content: center;
 }
 
 .Modal-header, .Modal-footer{
@@ -38,6 +45,12 @@
 .Modal-body{
     padding: 10px;
     font-size: 21px;
+}
+
+.SubModal-body-p{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
 }
 
 .forgot-input{

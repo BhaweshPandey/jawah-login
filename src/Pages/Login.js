@@ -19,7 +19,7 @@ const [show, setShow]=React.useState(false);
             <input type="password" placeholder="Password" />
         </div>
         <div className='bottom'>
-        <button>Save Changes</button>
+        <button >Save Changes</button>
         <a className='Forgot-button' onClick={() => setShow(true)} >Forgot your password?</a>
         <Modal show={show} onClose={()=> setShow(false)} />
         </div>
